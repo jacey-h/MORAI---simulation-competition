@@ -10,7 +10,7 @@ Sensor
 - Camera
 - 2D Lidar
 
-### Object detection using Lidar sensor    
+### 1. Object detection using Lidar sensor    
 
 
 https://user-images.githubusercontent.com/81483791/171255614-2f02cc9f-1714-4de4-a59b-948604291020.mp4
@@ -24,7 +24,7 @@ https://user-images.githubusercontent.com/81483791/171255614-2f02cc9f-1714-4de4-
 
 0 또는 1의 데이터를 보내줌
 
-### Vehicle control with Matlab Simulink
+### 2. Vehicle control with Matlab Simulink
 
 - Pure Pursuit algorithm     
 ![image](https://user-images.githubusercontent.com/81483791/171255726-11f10691-14e0-447e-9556-f128465315b6.png)
@@ -60,7 +60,7 @@ Path를 3구간으로 나누어 주행하도록 함
 
 - State Flow      
 ![image](https://user-images.githubusercontent.com/81483791/171256639-2fc56f0d-80af-49a5-a669-920886a28d48.png)      
-rpm : 속도 제어
+rpm : 속도 제어     
 
 ld값과 g값을 바꿔가며 차량 제어
 
