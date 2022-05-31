@@ -1,0 +1,22 @@
+<launch>
+	<node pkg="wecar_ros" type="detect_static_object.py" name="detect_static_object" >
+	</node>
+	<node pkg="wecar_ros" type="static_2run_detect_left.py" name="static_2run_detect_left" >
+	</node>
+	<node pkg="wecar_ros" type="static_right_diagonal.py" name="static_right_diagonal" >
+	</node>
+	<node pkg="wecar_ros" type="detect_rotary.py" name="detect_rotary" >	
+	</node>
+	<node pkg="wecar_ros" type="stop_rotary.py" name="stop_rotary" >
+	</node>
+	<node pkg="wecar_ros" type="timer.py" name="timer" >
+	</node>
+	<node pkg="wecar_ros" type="detect_person.py" name="detect_person" >	
+	</node>
+	<node pkg="wecar_ros" type="kinetic_square.py" name="kinetic_square" >	
+	</node>
+	<node pkg="wecar_ros" type="static_right_angle.py" name="static_right_angle" >
+	</node>
+	<node pkg="wecar_ros" type="detect_rotary_left.py" name="detect_rotary_left" >
+	</node>
+</launch>
